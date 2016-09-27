@@ -160,13 +160,8 @@
 				</configuration>
 			</plugin>
 		</plugins>
-<<<<<<< HEAD
         </build>
 	<version>1.6-SNAPSHOT</version>
-=======
-	</build>
-	<version>1.7-SNAPSHOT</version>
->>>>>>> d0c6a808a7d25ec48d977d9a85dbfc2bacd1a3c5
 	<name>Spring3HibernateApp</name>
 	<url>http://maven.apache.org</url>
 	<dependencies>
