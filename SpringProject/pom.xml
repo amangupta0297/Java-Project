@@ -14,13 +14,11 @@
 	 <distributionManagement>
    <!-- use the following if you're not using a snapshot version. -->
    <repository>
-     <id>release</id>
-     <name>local-release</name>
+     <id>ArtifactoryAuth</id>
      <url>http://192.168.0.18:8081/artifactory/local-release</url>
    </repository>
 	<snapshotRepository>
-          <id>snapshots</id>
-          <name>local-snapshot</name>
+          <id>ArtifactoryAuth</id>
           <url>http://192.168.0.18:8081/artifactory/local-snapshot</url>
         </snapshotRepository>
 	
