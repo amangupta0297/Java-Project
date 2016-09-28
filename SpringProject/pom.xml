@@ -13,15 +13,16 @@
 
 	 <distributionManagement>
    <!-- use the following if you're not using a snapshot version. -->
-   <repository>
-     <id>ArtifactoryAuth</id>
-     <url>http://192.168.0.18:8081/artifactory/local-release</url>
-   </repository>
-	<snapshotRepository>
-          <id>ArtifactoryAuth</id>
-          <url>http://192.168.0.18:8081/artifactory/local-snapshot</url>
-        </snapshotRepository>
-	
+    <repository>
+        <id>central</id>
+        <name>localhost.localdomain-releases</name>
+        <url>http://192.168.0.18:8081/artifactory/libs-release-local</url>
+    </repository>
+    <snapshotRepository>
+        <id>snapshots</id>
+        <name>localhost.localdomain-snapshots</name>
+        <url>http://192.168.0.18:8081/artifactory/libs-snapshot-local</url>
+    </snapshotRepository>	
  </distributionManagement>
 	<reporting>
 		<plugins>
